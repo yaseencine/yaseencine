@@ -1,0 +1,38 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hey", "hello", "hi", "what's up", "greetings", "how's it going"],
+    "bot_response": ["Hi!", "Hello!", "How can I help you today?"],
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet"]
+  },
+  {
+    "response_type": "bye",
+    "user_input": ["See ya", "bye", "bye bye", "talk to you later", "goodbye", "aloha", "I'm leaving now"],
+    "bot_response": ["Goodbye!", "Sad to see you go :(", "Talk to you later!", "See you later!"],
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how to", "learn", "code", "coding", "apps", "help"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "age",
+    "user_input": ["how old are you", "age", "old" ,"what's your age"],
+    "bot_response": ["I'm a few days old, but my owner is 20 years old."],
+    "required_words": ["age", "old"]
+  },
+  {
+    "response_type": "name",
+    "user_input": ["what's your name", "name", "what can I call you", "who are you?"],
+    "bot_response": ["My name is Chatty!", "You can call me Chatty the chatterbox!", "I'm Chatty!"],
+    "required_words": ["name"]
+  }
+]
